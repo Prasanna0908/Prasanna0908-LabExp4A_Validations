@@ -62,9 +62,9 @@ function validateForm() {
         Size.className = '';
     }
 
-    let div = document.getElementsByClassName('divID');
 
-    div.innerHTML += `Name : ${name} , Brand : ${Location} , Color : ${Color} , Size : ${Size}`;
+
+    alert(`Name : ${name} , Brand : ${Location} , Color : ${Color} , Size : ${Size}`);
 
 }
 
